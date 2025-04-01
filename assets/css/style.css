@@ -1,0 +1,119 @@
+/* Fondo y Tipografía */
+body {
+    background: linear-gradient(to bottom, black, green);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Estilos para Contacto */
+.contacto {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contacto:hover::after {
+    content: 'perez.matias.josue.2004@gmail.com';
+    display: block;
+    background: rgba(190, 9, 9, 0.91);
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+}
+
+/* Estilos para Redes */
+.redes {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.social-links {
+    margin-top: 5px;
+}
+
+.redes a {
+    display: inline-block;
+    color: rgb(235, 10, 10);
+    text-decoration: none;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Contenedor principal */
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+/* Foto de perfil */
+.foto {
+    width: 150px;
+    height: 150px;
+    background: url('https://th.bing.com/th/id/R.af5a9c39ab89dd861280bc44489cc5b7?rik=15351uzrPks5aw&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2016%2f01%2fA87-1-scaled.jpg&ehk=cv6JZXwDKsG5EYpPMRMc%2bmCJGzdAIDMc0CNyu%2fcL04o%3d&risl=&pid=ImgRaw&r=0.jpg') center/cover no-repeat;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Nombre */
+.nombre {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Secciones en línea */
+.secciones {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* Secciones individuales */
+.secciones section {
+    width: 30%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Titulos */
+h2 {
+    font-size: 22px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: #FFD700;
+}
+
+/* Párrafos */
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
